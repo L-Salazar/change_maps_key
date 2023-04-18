@@ -22,11 +22,14 @@ Output:
 
 -> Android key updated to: 111111111
 -> iOS key updated to: 111111111
+-> Web key updated to: 111111111
 
 ```
 The key on Android is changed in the following path: `android\\app\\src\\main\\AndroidManifest.xml`
 
 The key on iOS is change in the following path:  `ios\\Runner\\AppDelegate.swift`
+
+The key on Web is change in the following path: `.\\web\\index.html`
 
 ## Attention
 
@@ -37,8 +40,14 @@ Make sure your `AndroidManifest` file is with the key writted in 2 lines, exampl
                         android:value="000000"/>
 ```
 
-If the key is 1 line only, `it's not going to work properly`, example:
+If the key is writted in 1 line only, `it's not going to work properly`, example:
 
 ```bash
 <meta-data android:name="com.google.android.geo.API_KEY" android:value="000000"/>
 ```
+
+## Features and bugs
+
+Please file feature requests and bugs at the [issue tracker][tracker].
+
+[tracker]: https://github.com/L-Salazar/change_maps_key/issues
