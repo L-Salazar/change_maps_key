@@ -29,7 +29,7 @@ The key on Android is changed in the following path: `android\\app\\src\\main\\A
 
 The key on iOS is change in the following path:  `ios\\Runner\\AppDelegate.swift`
 
-The key on Web is change in the following path: `.\\web\\index.html`
+The key on Web is change in the following path: `web\\index.html`
 
 ## Attention
 
